@@ -1,0 +1,26 @@
+{
+  "name": "studentstatisticsback-end",
+  "version": "1.0.0",
+  "description": "Mongoose back-end project - Main",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node utils/seed",
+    "heroku-postbuild": "node utils/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "shahnazafreen9849"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Shahnaz Afreen",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
